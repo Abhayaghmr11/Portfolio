@@ -7,7 +7,6 @@ body {
   background-color: black;
   color: white;
   margin: 0;
-
 }
 header {
   position: fixed;
@@ -49,7 +48,12 @@ main {
   justify-content: center;
   align-items: center;
 }
-.image,.content,.download,.experience,.project,.work{
+.image,
+.content,
+.download,
+.experience,
+.project,
+.work {
   margin-bottom: 40px;
 }
 .name {
@@ -71,7 +75,7 @@ main {
 .content {
   align-items: center;
 }
-.nav-logo{
+.nav-logo {
   display: none;
 }
 .color {
@@ -104,7 +108,7 @@ h1 {
   text-align: center;
   margin: 50px 250px 0;
   line-height: 1.6;
-  font-family: 'Times New Roman';
+  font-family: "Times New Roman";
 }
 
 .cv {
@@ -117,15 +121,13 @@ h1 {
   font-family: "Poppins";
   color: white;
 }
-.cv:hover a{
-  color:black ;
-  
+.cv:hover a {
+  color: black;
 }
-.cv:hover{
+.cv:hover {
   transform: scale(1.3);
   background-color: white;
 }
-
 
 .experience {
   width: 50%;
@@ -151,7 +153,7 @@ h1 {
   width: 50px;
   height: 50px;
 }
-.logo:hover{
+.logo:hover {
   opacity: 50%;
   transform: scale(1.1);
   filter: grayscale(100%);
@@ -162,7 +164,7 @@ h1 {
 }
 .work {
   width: 70%;
-  
+
   padding: 0 50px;
 }
 .title-sub {
@@ -175,63 +177,63 @@ h1 {
   /* identical to box height, or 102% */
   text-transform: uppercase;
 }
-.work-title{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 21.7405px;
-line-height: 33px;
+.work-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21.7405px;
+  line-height: 33px;
 }
-.year{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14.4937px;
-line-height: 150%;
-color: grey;
+.year {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.4937px;
+  line-height: 150%;
+  color: grey;
 }
-.work-tile{
-    display: flex;
-    align-content: center;
-    justify-content: space-between;
-    margin-bottom: 0;
+.work-tile {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  margin-bottom: 0;
 }
-.work-head{
-    display: flex;
+.work-head {
+  display: flex;
 }
 
-.work-role{
+.work-role {
   margin-top: 0;
   font-size: 16px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
-.work-content{
-    margin-top: 0;
-    text-align: justify;
-    opacity: 50%;
+.work-content {
+  margin-top: 0;
+  text-align: justify;
+  opacity: 50%;
 }
 
-.foot{
-  background-color:#222222 ;
+.foot {
+  background-color: #222222;
   left: 0;
   bottom: 0;
   width: 100%;
 }
-.contact{
-  margin: 0px 20px ;
+.contact {
+  margin: 0px 20px;
   padding: 10px 30px 20px;
 }
-.social-icons{
+.social-icons {
   display: flex;
   justify-content: space-between;
   align-content: center;
   margin-right: 250px;
 }
-.social-icons i{
+.social-icons i {
   padding: 10px 10px;
 }
-.msg{
-  font-family: 'Poppins';
+.msg {
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 21.7405px;
@@ -260,7 +262,7 @@ color: grey;
     flex-direction: row;
     align-items: center;
   }
-  .cv{
+  .cv {
     height: 40px;
     width: 120px;
     font-size: 14px;
@@ -272,7 +274,7 @@ color: grey;
   .social-icons {
     margin-right: 0;
   }
-  .logo{
+  .logo {
     width: 30px;
     height: 30px;
   }
@@ -286,23 +288,20 @@ color: grey;
     border-radius: 50px;
     top: 10px;
     margin: 0 20px;
-
   }
   .head {
     flex-direction: row;
     justify-content: space-evenly;
     padding: 0 5px;
-    
   }
   .topic {
-    
     padding: 5px 10px;
     font-size: 14px;
   }
-  .nav{
+  .nav {
     width: 100%;
   }
-  .nav-logo{
+  .nav-logo {
     display: block;
     width: 25px;
     height: 25px;
@@ -314,10 +313,10 @@ color: grey;
     display: none;
   }
 
-  .topic{
+  .topic {
     align-items: center;
   }
-  .nav ul{
+  .nav ul {
     display: flex;
     justify-content: space-evenly;
     padding: 25px 0;
@@ -330,10 +329,14 @@ color: grey;
     margin: 20px 10px 0;
     font-size: 16px;
   }
+  .download{
+    width: 160px;
+  }
   .cv {
-    height: 50px;
+    height: 40px;
     width: 120px;
     font-size: 14px;
+    margin: 0 20px;
   }
   .experience {
     width: 80%;
@@ -352,7 +355,7 @@ color: grey;
   .title-sub {
     font-size: 24px;
   }
-  .work-tile{
+  .work-tile {
     justify-content: space-between;
     align-items: center;
   }
@@ -360,13 +363,14 @@ color: grey;
     font-size: 12px;
     align-items: center;
   }
-  .work-head{
+  .work-head {
     align-items: center;
   }
   .year {
     font-size: 12px;
   }
-  .work-role, .work-content {
+  .work-role,
+  .work-content {
     font-size: 12px;
   }
   .social-icons {
@@ -377,13 +381,11 @@ color: grey;
   .social-icons i {
     margin: 5px 0;
   }
-  .logo1{
+  .logo1 {
     width: 50px;
     height: 35px;
-    
   }
-  .contact{
+  .contact {
     text-align: center;
   }
-  
 }
