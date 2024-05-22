@@ -18,10 +18,10 @@
       <p class="name">Abhaya Ghimire</p>
       <div class="nav">
         <ul list-style="none">
-          <li class="topic"><a href="#main">Home</a></li>
-          <li class="topic"><a href="#project">Projects</a></li>
-          <li class="topic"><a href="#work">Experience</a></li>
-          <li class="topic"><a href="#contact">Contact</a></li>
+          <li class="topic"><img src="https://cdn4.iconfinder.com/data/icons/eon-ecommerce-i-1/32/home_house_desktop_dashboard-512.png" class="nav-logo"><a href="#main">Home</a></li>
+          <li class="topic"><img src="https://cdn4.iconfinder.com/data/icons/human-resources-114/66/88_projects_launches_drafts_proposal_programs-512.png" alt="" class="nav-logo"><a href="#project">Projects</a></li>
+          <li class="topic"><img src="https://cdn0.iconfinder.com/data/icons/customer-satisfaction-2/64/experience-success-development-efficiency-expert-512.png" alt="" class="nav-logo"><a href="#work">Experience</a></li>
+          <li class="topic"><img src="https://cdn1.iconfinder.com/data/icons/customer-relationship-management-2/48/vector_880_30-512.png" alt="" class="nav-logo"><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -46,7 +46,7 @@
       </p>
     </div>
     <div class="download" id="download">
-     <button class="cv" type="submit" ><a href="CV.docx">Download CV</a></button>
+      <button class="cv" type="submit" ><a href="CV.docx">Download CV</a></button>
     </div>
     <div class="experience" >
       <p class="exp">Experience With</p>
@@ -98,7 +98,7 @@
     <div class="contact" id="contact">
       <p class="msg">Connect with me using</p>
         <div class="social-icons">
-          <a href="mailto:abhaya2057@gmail.com" target="_blank">
+          <a href="mailto:abhaya2057@gmail.com" id="email-button" target="_blank">
             <i class="fab fa-google"></i> abhaya2057@gmail.com
         </a>
           <div>
@@ -117,5 +117,11 @@
     </div>
   </footer>
 </body>
+<script>
+  document.getElementById('email-button').addEventListener('click', function() {
+    window.location.href = 'mailto:abhaya2057@gmail.com';
+});
+
+</script>
 
 </html>
