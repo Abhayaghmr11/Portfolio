@@ -34,8 +34,8 @@
     </div>
     <div class="content">
       <h1 class="text-title">
-        Hello everyone. It's<br /><span class="color">Abhaya Ghimire</span>
-      </h1>
+        <span id="element">
+        </span>
       <p class="text">
         I am an energetic and enthusiastic computer science student with a
         strong desire to learn and train with professionals in
@@ -46,7 +46,7 @@
       </p>
     </div>
     <div class="download" id="download">
-      <button class="cv" type="submit" ><a href="CV.pdf" target="_blank">Download CV</a></button>
+      <button class="cv" type="submit" ><a href="CV.docx">Download CV</a></button>
     </div>
     <div class="experience" >
       <p class="exp">Experience With</p>
@@ -116,6 +116,13 @@
         </div>
     </div>
   </footer>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ["Hello everyone. It's<br /><span class='color'>Abhaya Ghimire</span></h1>"],
+      typeSpeed: 50,
+    });
+  </script>
 </body>
 <script>
   document.getElementById('email-button').addEventListener('click', function() {
