@@ -68,9 +68,11 @@ main {
   justify-content: center;
 }
 .photo {
-  width: 213px;
-  height: 213px;
-  border-radius: 50%;
+  width: 210px;
+  height: 210px;
+  border-radius: 40%;
+  margin-top:20px;
+  padding-top: 10px;
 }
 .content {
   align-items: center;
